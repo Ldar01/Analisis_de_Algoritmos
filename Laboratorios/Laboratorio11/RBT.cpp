@@ -100,8 +100,6 @@ void destruirArbol(Nodo* T){
     free(T);
 }
 
-///////////////////////////////START//////////////////////////////
-
 void rotarLEFT(Nodo *&A, Nodo *&B){
     cout << "Rotando LEFT: " << A->dato << " y " << B->dato << "\n";
     Nodo* Adad = A->parent;
